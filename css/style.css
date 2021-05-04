@@ -153,7 +153,18 @@ p,li,.card-body{
 .section-applicable .box{
 	min-height: calc(100% - 150px);
 }
-
+.section-applicable ul li{
+	list-style-type: none;
+}
+.section-applicable li > img{
+	border-radius: 10%;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	width: 44px;
+	height: 44px;
+	padding: 4px;
+	background-color: var(--eho-color);
+}
 /* benefit */
 .section-benefit .box{
 	min-height: calc(100% - 150px);
